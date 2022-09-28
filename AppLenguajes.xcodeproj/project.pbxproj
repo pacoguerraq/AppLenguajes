@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D0BE9E8928E3863300802883 /* AppLenguajesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E8828E3863300802883 /* AppLenguajesApp.swift */; };
-		D0BE9E8B28E3863300802883 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E8A28E3863300802883 /* ContentView.swift */; };
+		D0BE9E8B28E3863300802883 /* LenguajesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E8A28E3863300802883 /* LenguajesView.swift */; };
 		D0BE9E8D28E3863400802883 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE9E8C28E3863400802883 /* Assets.xcassets */; };
 		D0BE9E9028E3863400802883 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE9E8F28E3863400802883 /* Preview Assets.xcassets */; };
+		D0BE9E9728E3936000802883 /* LenguajesItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E9628E3936000802883 /* LenguajesItemView.swift */; };
+		D0BE9E9B28E3988B00802883 /* LenguajesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E9A28E3988B00802883 /* LenguajesModel.swift */; };
+		D0BE9E9D28E39AAD00802883 /* LenguajesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E9C28E39AAD00802883 /* LenguajesViewModel.swift */; };
+		D0BE9E9F28E3A5D200802883 /* LenguajesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE9E9E28E3A5D200802883 /* LenguajesDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0BE9E8528E3863300802883 /* AppLenguajes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLenguajes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BE9E8828E3863300802883 /* AppLenguajesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLenguajesApp.swift; sourceTree = "<group>"; };
-		D0BE9E8A28E3863300802883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0BE9E8A28E3863300802883 /* LenguajesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguajesView.swift; sourceTree = "<group>"; };
 		D0BE9E8C28E3863400802883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0BE9E8F28E3863400802883 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0BE9E9628E3936000802883 /* LenguajesItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguajesItemView.swift; sourceTree = "<group>"; };
+		D0BE9E9A28E3988B00802883 /* LenguajesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguajesModel.swift; sourceTree = "<group>"; };
+		D0BE9E9C28E39AAD00802883 /* LenguajesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguajesViewModel.swift; sourceTree = "<group>"; };
+		D0BE9E9E28E3A5D200802883 /* LenguajesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguajesDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D0BE9E8828E3863300802883 /* AppLenguajesApp.swift */,
-				D0BE9E8A28E3863300802883 /* ContentView.swift */,
+				D0BE9E8A28E3863300802883 /* LenguajesView.swift */,
+				D0BE9E9E28E3A5D200802883 /* LenguajesDetailView.swift */,
+				D0BE9E9A28E3988B00802883 /* LenguajesModel.swift */,
+				D0BE9E9C28E39AAD00802883 /* LenguajesViewModel.swift */,
+				D0BE9E9628E3936000802883 /* LenguajesItemView.swift */,
 				D0BE9E8C28E3863400802883 /* Assets.xcassets */,
 				D0BE9E8E28E3863400802883 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BE9E8B28E3863300802883 /* ContentView.swift in Sources */,
+				D0BE9E9728E3936000802883 /* LenguajesItemView.swift in Sources */,
+				D0BE9E8B28E3863300802883 /* LenguajesView.swift in Sources */,
+				D0BE9E9F28E3A5D200802883 /* LenguajesDetailView.swift in Sources */,
+				D0BE9E9D28E39AAD00802883 /* LenguajesViewModel.swift in Sources */,
+				D0BE9E9B28E3988B00802883 /* LenguajesModel.swift in Sources */,
 				D0BE9E8928E3863300802883 /* AppLenguajesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
